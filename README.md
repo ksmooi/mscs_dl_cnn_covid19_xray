@@ -58,17 +58,18 @@ The CNN models were designed with varying configurations to identify the most ef
 Several models with different hyperparameters were tested, including variations in the number of layers, number of filters, dropout rates, and batch sizes.
 
 ## Results and Analysis
+
 ### Performance Metrics
 The performance of each model was evaluated using metrics such as accuracy, precision, recall, and F1-score. The table below summarizes the final epoch metrics for each model:
 
-| Model Name | Train Loss | Train Accuracy | Train Precision | Train Recall | Train F1 | Test Loss | Test Accuracy | Test Precision | Test Recall | Test F1 |
-|------------|-------------|----------------|------------------|--------------|---------|-----------|---------------|----------------|-------------|--------|
-| Model-A    | 0.083477    | 0.966216       | 0.972603         | 0.959459     | 0.965986| 0.048160  | 0.975         | 0.952381       | 1.000       | 0.975610|
-| Model-B    | 0.214357    | 0.905405       | 0.884615         | 0.932432     | 0.907895| 0.060019  | 0.975         | 1.000000       | 0.950       | 0.974359|
-| Model-C    | 0.115187    | 0.939189       | 0.922078         | 0.959459     | 0.940397| 0.048177  | 1.000         | 1.000000       | 1.000       | 1.000000|
-| Model-D    | 0.048019    | 0.986486       | 0.973684         | 1.000000     | 0.986667| 0.013338  | 1.000         | 1.000000       | 1.000       | 1.000000|
-| Model-E    | 0.112359    | 0.966216       | 0.972603         | 0.959459     | 0.965986| 0.045077  | 1.000         | 1.000000       | 1.000       | 1.000000|
-| Model-F    | 0.130352    | 0.952703       | 0.985507         | 0.918919     | 0.951049| 0.068300  | 0.975         | 0.952381       | 1.000       | 0.975610|
+| Model Name | Test Loss | Test Accuracy | Test Precision | Test Recall | Test F1 |
+|------------|-----------|---------------|----------------|-------------|---------|
+| Model-A    | 0.048160  | 0.975         | 0.952381       | 1.000       | 0.975610|
+| Model-B    | 0.060019  | 0.975         | 1.000000       | 0.950       | 0.974359|
+| Model-C    | 0.048177  | 1.000         | 1.000000       | 1.000       | 1.000000|
+| Model-D    | 0.013338  | 1.000         | 1.000000       | 1.000       | 1.000000|
+| Model-E    | 0.045077  | 1.000         | 1.000000       | 1.000       | 1.000000|
+| Model-F    | 0.068300  | 0.975         | 0.952381       | 1.000       | 0.975610|
 
 ### Performance Analysis
 - **Number of Layers**: Model-A (3 layers) performed better than Model-B (5 layers), indicating that more layers did not necessarily improve performance.
