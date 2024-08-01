@@ -1,5 +1,7 @@
 # Classification of COVID-19 X-ray
 
+![](notebooks/img/covid19_graph.png)
+
 ## Introduction
 This project focuses on classifying COVID-19 from X-ray images using Convolutional Neural Networks (CNN). Given the critical need for accurate and timely diagnosis during the pandemic, this project aims to leverage deep learning techniques to assist in the detection of COVID-19 from radiological images.
 
